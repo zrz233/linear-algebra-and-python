@@ -1,0 +1,14 @@
+#!/usr/bin/env wolframscript
+(* ::Package:: *)
+
+(* ::Input:: *)
+(*Clear[A,X,b];*)
+(*Form[A_,X_,b_]:=MatrixForm[{{MatrixForm[A],MatrixForm[X]}}]==MatrixForm[b];*)
+(*A=Input["\:8bf7\:8f93\:5165\:7cfb\:6570\:77e9\:9635A"];*)
+(*B=Input["\:8bf7\:8f93\:5165\:5411\:91cfB"];*)
+(*n=Dimensions[A][[1]];X=Table[Subscript[x, i],{i,n}];*)
+(*Print["\:539f\:65b9\:7a0b\:7ec4\:ff1a",Form[A,X,b]]*)
+(*For[i=1,i<n,i++,For[j=i+1,j<=n,b[[j]]=b[[j]]-(b[[i]] A[[j,i]])/A[[i,i]];A[[j]]=A[[j]]-(A[[i]] A[[j,i]])/A[[i,i]]];Print["\:7b2c",i,\:ff0c "\:6b21\:6d88\:5143\:ff1a" Form[A,X,b]]];*)
+(*For[i=n,i>=i,i--,X[[i]]=(b[[i]]-\!\( *)
+(*\*UnderoverscriptBox[\(\[Sum]\), \(j = i + 1\), \(n\)]\(X[[j]]\ A[[i, j]]\)\))/A[[i,i]]]*)
+(*Print["\:51c6\:786e\:89e3X=",MatrixForm[X],\:ff0c "\t\:6570\:503c\:89e3X=" N[MatrixForm[X]]]*)
